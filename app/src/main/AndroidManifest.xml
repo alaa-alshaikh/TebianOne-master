@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.islamright.tebian" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".splash.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".ui.InstructionAndIntroductionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".download_ui.DownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fahras.FahrasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page_by_number.EnterPageNumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".search_page.SearchPageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".search.SearchActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".explanation.ExplanationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".explanation_reading_list.ExplanationReadingReadingActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".download.DownLoadService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <service
+            android:name=".extract_and_save.Extract"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".extract_and_save.SaveToDatabase"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity android:name=".test.LoginActivity" >
+        </activity>
+    </application>
+
+</manifest>

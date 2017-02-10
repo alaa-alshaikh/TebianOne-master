@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">تبيان</string>
+    <string name="email">yousefsubhi@yahoo.com</string>
+    <string name="website">http://www.islamright.com/</string>
+    <string name="confirm">تاكيد</string>
+    <string name="cancel">الغاء</string>
+    <string name="hide">اخفاء</string>
+    <string name="go">اذهب</string>
+    <string name="canceling_download">الغاء التنزيل . . .</string>
+    <string name="jzua">الجزء</string>
+    <string name="loading_data">تحميل البيانات</string>
+    <string name="loading_images">تحميل الصور</string>
+    <string name="cancel_download">الغاء التحميل</string>
+    <string name="ChooseEmail">اختار البريد الالكتروني</string>
+    <string name="msgPageNumber">ادخل رقم الصفحة</string>
+    <string name="msgEmptyPageNumber">الرجاء ادخال رقم الصفحة</string>
+    <string name="msgEnterValidNumber">الرجاء ادخال رقم صحيح </string>
+    <string name="msgErrorHappen">حدث خطاء , تاكد من الانترنت</string>
+    <string name="msgDownload">تاكيد تحميل القران الكريم كامل مع كتب التفسير !</string>
+    <string name="msgCancelDownload">تاكيد الغاء تحميل القران الكريم !</string>
+    <string name="msgEndExplanationPage">وصلت الى نهاية تفسير الصفحة</string>
+    <string name="msgStartExplanationPage">وصلت الى بداية تفسير الصفحة</string>
+    <string name="msgDownloadFirstPages">تاكد من الانترنت لتحميل بيانات البرنامج</string>
+    <string name="msgPromptDownloadFirstPages">يريد البرنامج تحميل بيانته</string>
+    <string name="msgWait">يرجى الانتظار</string>
+    <string name="search">البحث</string>
+    <string name="fullSearch">البحث\nالمطابق</string>
+    <string name="subSearch">البحث\nالجزئي</string>
+    <string name="numberOfResult">عدد نتائج البحث :</string>
+    <string name="pageNumber"> الصفحة :</string>
+    <string name="ayaNumber"> الاية :</string>
+    <string name="soraName">السورة :</string>
+    <string name="showAyaText">عرض الاية مع التشكيل</string>
+    <string name="copy">نسخ</string>
+    <string name="share">مشاركة</string>
+    <string name="noSearchResult">لا توجد نتائج</string>
+    <string name="title_activity_instruction_and_introduction">InstructionAndIntroductionActivity</string>
+    <string name="loading_cancel">تم الغاء التحميل</string>
+    <string name="loading_complete">اكتمل التحميل</string>
+    <string name="loading_failed">فشل التحميل</string>
+    <string name="explanation_download">التفسيرات</string>
+    <string name="processing">معالجة</string>
+    <string name="please_wait">يرجى الانتظار</string>
+    <string name="readings_download">قراءات</string>
+
+
+</resources>

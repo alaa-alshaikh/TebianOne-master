@@ -1,0 +1,22 @@
+<resources>
+
+    <item name="WvTextSize" type="integer">20</item>
+    <dimen name="txtMicro">12sp</dimen>
+    <dimen name="txtSmall">14sp</dimen>
+    <dimen name="txtMedium">18sp</dimen>
+    <dimen name="txtLarge">22sp</dimen>
+    <dimen name="txtLarge1">26sp</dimen>
+    <dimen name="txtLarge2">30sp</dimen>
+    <dimen name="txtLarge3">34sp</dimen>
+
+    <item name="explanationWeight" type="integer">8.5</item>
+    <dimen name="marginSearch">8dp</dimen>
+    <dimen name="fahrasStarPadding">10dp</dimen>
+    <dimen name="pageButtonHeight">48dp</dimen>
+    <dimen name="paddingExplanation">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+</resources>

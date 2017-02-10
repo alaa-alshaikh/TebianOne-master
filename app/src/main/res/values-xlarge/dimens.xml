@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="WvTextSize" type="integer">40</item>
+    <dimen name="txtMicro">20sp</dimen>
+    <dimen name="txtSmall">24sp</dimen>
+    <dimen name="txtMedium">28sp</dimen>
+    <dimen name="txtLarge">32sp</dimen>
+    <dimen name="txtLarge1">36sp</dimen>
+    <dimen name="txtLarge2">40sp</dimen>
+    <dimen name="txtLarge3">44sp</dimen>
+
+    <item name="explanationWeight" type="integer">12</item>
+    <dimen name="marginSearch">17dp</dimen>
+    <dimen name="fahrasStarPadding">35dp</dimen>
+    <dimen name="pageButtonHeight">68dp</dimen>
+    <dimen name="paddingExplanation">15dp</dimen>
+</resources>
